@@ -40,5 +40,7 @@
             update
         </property>
 
+        <mapping class="org.example.userservice.entity.User"/>
+
     </session-factory>
 </hibernate-configuration>
