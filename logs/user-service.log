@@ -1,0 +1,75 @@
+2026-08-16 15:48:58.008 [main] INFO  o.example.userservice.console.Main - Приложение user-service запущено
+2026-08-16 15:49:06.601 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-08-16 15:49:06.802 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-16 15:49:07.806 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2026-08-16 15:49:07.830 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 2
+2026-08-16 15:49:43.951 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (age, created_at, email, name) 
+    values
+        (?, ?, ?, ?)
+2026-08-16 15:49:43.969 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=7, email=artem@gmail.com
+2026-08-16 15:49:46.803 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2026-08-16 15:49:46.805 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 3
+2026-08-16 15:50:22.413 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-08-16 15:50:22.416 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь найден: id=2
+2026-08-16 15:50:22.419 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-08-16 15:50:22.425 [main] DEBUG org.hibernate.SQL - 
+    update
+        users 
+    set
+        age=?,
+        created_at=?,
+        email=?,
+        name=? 
+    where
+        id=?
+2026-08-16 15:50:22.429 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь обновлён: id=2
+2026-08-16 15:50:24.859 [main] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2026-08-16 15:50:24.861 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 3
