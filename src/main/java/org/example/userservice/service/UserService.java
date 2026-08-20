@@ -15,6 +15,10 @@ public class UserService {
         this.userDao = new UserDaoImpl();
     }
 
+    public UserService(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
     // CREATE
     public User createUser(String name, String email, int age) {
 

@@ -73,3 +73,289 @@
     from
         users u1_0
 2026-08-16 15:50:24.861 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 3
+2026-08-16 16:47:04.791 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 16:47:04.797 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 16:47:04.852 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.4
+2026-08-16 16:47:05.152 [main] INFO  o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, %JAVA_HOME%\bin, , C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Users\Артем\AppData\Local\Microsoft\WindowsApps, C:\Users\Артем\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Артем\AppData\Local\GitHubDesktop\bin, C:\Users\Артем\AppData\Local\Programs\DockerDesktop\resources\bin])
+2026-08-16 16:47:05.153 [main] ERROR o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=npipe://\\\\.\\pipe\\docker_cli"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2026-08-16 16:53:35.509 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 16:53:35.514 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 16:53:35.567 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.4
+2026-08-16 16:53:35.859 [main] INFO  o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, %JAVA_HOME%\bin, , C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Users\Артем\AppData\Local\Microsoft\WindowsApps, C:\Users\Артем\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Артем\AppData\Local\GitHubDesktop\bin, C:\Users\Артем\AppData\Local\Programs\DockerDesktop\resources\bin])
+2026-08-16 16:53:35.860 [main] ERROR o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=npipe://\\\\.\\pipe\\docker_cli"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2026-08-16 17:09:46.908 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 17:09:46.913 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 17:09:46.962 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.4
+2026-08-16 17:09:47.334 [main] INFO  o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, %JAVA_HOME%\bin, , C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Users\Артем\AppData\Local\Microsoft\WindowsApps, C:\Users\Артем\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Артем\AppData\Local\GitHubDesktop\bin, C:\Users\Артем\AppData\Local\Programs\DockerDesktop\resources\bin])
+2026-08-16 17:09:47.336 [main] ERROR o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=npipe://\\\\.\\pipe\\docker_cli"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2026-08-16 17:23:10.867 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 17:23:10.872 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 17:23:10.926 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.4
+2026-08-16 17:23:11.223 [main] INFO  o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, %JAVA_HOME%\bin, , C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Users\Артем\AppData\Local\Microsoft\WindowsApps, C:\Users\Артем\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Артем\AppData\Local\GitHubDesktop\bin, C:\Users\Артем\AppData\Local\Programs\DockerDesktop\resources\bin])
+2026-08-16 17:23:11.224 [main] ERROR o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=npipe://\\\\.\\pipe\\docker_cli"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2026-08-16 17:48:16.919 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 17:48:16.923 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 17:48:16.970 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.5
+2026-08-16 17:48:17.566 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2026-08-16 17:48:17.574 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2026-08-16 17:48:17.589 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.7.2
+  API Version: 1.55
+  Operating System: Docker Desktop
+  Total Memory: 15957 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2026-08-16 17:48:17.653 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling docker image: testcontainers/ryuk:0.14.0. Please be patient; this may take some time but only needs to be done once.
+2026-08-16 17:48:20.902 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Starting to pull image
+2026-08-16 17:48:20.930 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2026-08-16 17:48:22.366 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling image layers:  1 pending,  1 downloaded,  0 extracted, (0 bytes/? MB)
+2026-08-16 17:48:22.467 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling image layers:  1 pending,  1 downloaded,  1 extracted, (1 bytes/? MB)
+2026-08-16 17:48:22.765 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling image layers:  0 pending,  2 downloaded,  1 extracted, (1 MB/2 MB)
+2026-08-16 17:48:22.766 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pulling image layers:  0 pending,  2 downloaded,  2 extracted, (1 MB/2 MB)
+2026-08-16 17:48:22.804 [docker-java-stream--306254882] INFO  tc.testcontainers/ryuk:0.14.0 - Pull complete. 2 layers, pulled in 1s (downloaded 1 MB at 1 MB/s)
+2026-08-16 17:48:22.804 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Image testcontainers/ryuk:0.14.0 pull took PT5.1502138S
+2026-08-16 17:48:22.864 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Creating container for image: testcontainers/ryuk:0.14.0
+2026-08-16 17:48:23.092 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Container testcontainers/ryuk:0.14.0 is starting: 6221d284191ab00b139a6f18a78a1c063c6b6169e24aa99dbc1f4989b069ca15
+2026-08-16 17:48:23.567 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Container testcontainers/ryuk:0.14.0 started in PT0.703594S
+2026-08-16 17:48:23.573 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2026-08-16 17:48:23.573 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2026-08-16 17:48:23.573 [main] INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2026-08-16 17:48:23.578 [main] INFO  tc.postgres:16-alpine - Pulling docker image: postgres:16-alpine. Please be patient; this may take some time but only needs to be done once.
+2026-08-16 17:48:26.500 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Starting to pull image
+2026-08-16 17:48:26.502 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2026-08-16 17:48:29.493 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers: 11 pending,  1 downloaded,  0 extracted, (0 bytes/? MB)
+2026-08-16 17:48:29.593 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers: 11 pending,  2 downloaded,  0 extracted, (0 bytes/? MB)
+2026-08-16 17:48:29.792 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers: 10 pending,  3 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:29.793 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  9 pending,  4 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:29.893 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  8 pending,  5 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:29.993 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  7 pending,  6 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:30.093 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  6 pending,  7 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:30.192 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  5 pending,  8 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:30.392 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  4 pending,  9 downloaded,  0 extracted, (9 KB/? MB)
+2026-08-16 17:48:30.792 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  3 pending, 10 downloaded,  0 extracted, (4 MB/? MB)
+2026-08-16 17:48:30.793 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  2 pending, 11 downloaded,  0 extracted, (4 MB/? MB)
+2026-08-16 17:48:31.991 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  0 extracted, (17 MB/? MB)
+2026-08-16 17:48:32.095 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  1 extracted, (20 MB/? MB)
+2026-08-16 17:48:32.196 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  2 extracted, (21 MB/? MB)
+2026-08-16 17:48:32.196 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  3 extracted, (21 MB/? MB)
+2026-08-16 17:48:32.294 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  4 extracted, (22 MB/? MB)
+2026-08-16 17:48:32.394 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  1 pending, 12 downloaded,  5 extracted, (23 MB/? MB)
+2026-08-16 17:48:39.992 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded,  5 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.592 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded,  6 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.593 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded,  7 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.693 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded,  8 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.792 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded,  9 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.793 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded, 10 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.874 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pulling image layers:  0 pending, 13 downloaded, 11 extracted, (109 MB/109 MB)
+2026-08-16 17:48:41.883 [main] INFO  tc.postgres:16-alpine - Image postgres:16-alpine pull took PT18.3053586S
+2026-08-16 17:48:41.883 [docker-java-stream--865958473] INFO  tc.postgres:16-alpine - Pull complete. 13 layers, pulled in 15s (downloaded 109 MB at 7 MB/s)
+2026-08-16 17:48:41.944 [main] INFO  tc.postgres:16-alpine - Creating container for image: postgres:16-alpine
+2026-08-16 17:48:42.709 [main] INFO  tc.postgres:16-alpine - Container postgres:16-alpine is starting: 74ce0d25a91018d0a8771fd5d94f1ea2adc85122517f2a4c8119e2aff3a0fd13
+2026-08-16 17:48:46.049 [main] INFO  tc.postgres:16-alpine - Container postgres:16-alpine started in PT4.1045107S
+2026-08-16 17:48:46.049 [main] INFO  tc.postgres:16-alpine - Container is started (JDBC URL: jdbc:postgresql://localhost:63173/user_service_test?loggerLevel=OFF)
+2026-08-16 17:48:46.280 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-08-16 17:48:46.464 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-16 17:48:47.360 [main] DEBUG org.hibernate.SQL - create table users (id bigint generated by default as identity, age integer not null, created_at timestamp(6) not null, email varchar(255) not null, name varchar(255) not null, primary key (id))
+2026-08-16 17:48:47.366 [main] DEBUG org.hibernate.SQL - alter table if exists users drop constraint if exists UK6dotkott2kjsp8vw4d0m25fb7
+2026-08-16 17:48:47.368 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-08-16 17:48:47.368 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2026-08-16 17:48:47.368 [main] DEBUG org.hibernate.SQL - alter table if exists users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2026-08-16 17:48:47.606 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.627 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.661 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=1, email=alex3@mail.com
+2026-08-16 17:48:47.662 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.665 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=2, email=petr3@mail.com
+2026-08-16 17:48:47.683 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0
+2026-08-16 17:48:47.693 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 2
+2026-08-16 17:48:47.703 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.710 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:48:47.713 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь с id=999 не найден
+2026-08-16 17:48:47.716 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.719 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.722 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=3, email=alex4@mail.com
+2026-08-16 17:48:47.724 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:48:47.729 [main] DEBUG org.hibernate.SQL - update users set age=?,created_at=?,email=?,name=? where id=?
+2026-08-16 17:48:47.734 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь обновлён: id=3
+2026-08-16 17:48:47.736 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.739 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.742 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=4, email=alex2@mail.com
+2026-08-16 17:48:47.742 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:48:47.745 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь найден: id=4
+2026-08-16 17:48:47.746 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.749 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.753 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=5, email=dup@mail.com
+2026-08-16 17:48:47.754 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.760 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2026-08-16 17:48:47.761 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Подробности: Key (email)=(dup@mail.com) already exists.
+2026-08-16 17:48:47.774 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.777 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.781 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=7, email=alex@mail.com
+2026-08-16 17:48:47.783 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:48:47.786 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:48:47.789 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=8, email=alex5@mail.com
+2026-08-16 17:48:47.789 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:48:47.792 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь удалён: id=8
+2026-08-16 17:48:47.793 [main] DEBUG org.hibernate.SQL - delete from users where id=?
+2026-08-16 17:48:47.796 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:48:47.799 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь с id=8 не найден
+2026-08-16 17:52:10.526 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2026-08-16 17:52:10.530 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-08-16 17:52:10.580 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 2.0.5
+2026-08-16 17:52:10.768 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2026-08-16 17:52:11.169 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2026-08-16 17:52:11.170 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2026-08-16 17:52:11.188 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 29.7.2
+  API Version: 1.55
+  Operating System: Docker Desktop
+  Total Memory: 15957 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2026-08-16 17:52:11.256 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Creating container for image: testcontainers/ryuk:0.14.0
+2026-08-16 17:52:11.519 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Container testcontainers/ryuk:0.14.0 is starting: 76a9393cccd7add4bcdd571bd4ccafae09b492ae3133a1f9c83aa2a1ad641121
+2026-08-16 17:52:11.908 [main] INFO  tc.testcontainers/ryuk:0.14.0 - Container testcontainers/ryuk:0.14.0 started in PT0.6517123S
+2026-08-16 17:52:11.913 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2026-08-16 17:52:11.913 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2026-08-16 17:52:11.914 [main] INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2026-08-16 17:52:11.914 [main] INFO  tc.postgres:16-alpine - Creating container for image: postgres:16-alpine
+2026-08-16 17:52:12.095 [main] INFO  tc.postgres:16-alpine - Container postgres:16-alpine is starting: d4f3328897dd16467f893c87b01b8edd113758368e79a8c05366224c38492071
+2026-08-16 17:52:15.538 [main] INFO  tc.postgres:16-alpine - Container postgres:16-alpine started in PT3.6235992S
+2026-08-16 17:52:15.538 [main] INFO  tc.postgres:16-alpine - Container is started (JDBC URL: jdbc:postgresql://localhost:63248/user_service_test?loggerLevel=OFF)
+2026-08-16 17:52:15.701 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-08-16 17:52:15.859 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-16 17:52:16.630 [main] DEBUG org.hibernate.SQL - create table users (id bigint generated by default as identity, age integer not null, created_at timestamp(6) not null, email varchar(255) not null, name varchar(255) not null, primary key (id))
+2026-08-16 17:52:16.637 [main] DEBUG org.hibernate.SQL - alter table if exists users drop constraint if exists UK6dotkott2kjsp8vw4d0m25fb7
+2026-08-16 17:52:16.639 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-08-16 17:52:16.640 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2026-08-16 17:52:16.640 [main] DEBUG org.hibernate.SQL - alter table if exists users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2026-08-16 17:52:16.843 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:16.860 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.884 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=1, email=alex3@mail.com
+2026-08-16 17:52:16.884 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.888 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=2, email=petr3@mail.com
+2026-08-16 17:52:16.906 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0
+2026-08-16 17:52:16.918 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Получено пользователей: 2
+2026-08-16 17:52:16.928 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:16.935 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:52:16.938 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь с id=999 не найден
+2026-08-16 17:52:16.940 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:16.943 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.946 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=3, email=alex4@mail.com
+2026-08-16 17:52:16.948 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:52:16.959 [main] DEBUG org.hibernate.SQL - update users set age=?,created_at=?,email=?,name=? where id=?
+2026-08-16 17:52:16.963 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь обновлён: id=3
+2026-08-16 17:52:16.966 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:16.969 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.972 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=4, email=alex2@mail.com
+2026-08-16 17:52:16.972 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:52:16.974 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь найден: id=4
+2026-08-16 17:52:16.976 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:16.979 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.982 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=5, email=dup@mail.com
+2026-08-16 17:52:16.982 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:16.989 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2026-08-16 17:52:16.989 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Подробности: Key (email)=(dup@mail.com) already exists.
+2026-08-16 17:52:16.993 [main] WARN  o.e.userservice.dao.UserDaoImpl - Не удалось откатить транзакцию (возможно, соединение уже закрыто)
+java.lang.IllegalStateException: org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl@40db6136 is closed
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.errorIfClosed(AbstractLogicalConnectionImplementor.java:37)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:130)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.rollback(JdbcResourceLocalTransactionCoordinatorImpl.java:289)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.rollback(TransactionImpl.java:142)
+	at org.example.userservice.dao.UserDaoImpl.rollback(UserDaoImpl.java:202)
+	at org.example.userservice.dao.UserDaoImpl.save(UserDaoImpl.java:47)
+	at org.example.userservice.dao.UserDaoImplIT.lambda$save_throwsOnDuplicateEmail$0(UserDaoImplIT.java:88)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at org.example.userservice.dao.UserDaoImplIT.save_throwsOnDuplicateEmail(UserDaoImplIT.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-08-16 17:52:16.996 [main] WARN  o.e.userservice.dao.UserDaoImpl - Нарушение уникальности при создании пользователя с email=dup@mail.com
+2026-08-16 17:52:16.998 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:17.002 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:17.006 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=7, email=alex@mail.com
+2026-08-16 17:52:17.008 [main] DEBUG org.hibernate.SQL - delete from users u1_0
+2026-08-16 17:52:17.011 [main] DEBUG org.hibernate.SQL - insert into users (age,created_at,email,name) values (?,?,?,?)
+2026-08-16 17:52:17.015 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь создан: id=8, email=alex5@mail.com
+2026-08-16 17:52:17.015 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:52:17.017 [main] INFO  o.e.userservice.dao.UserDaoImpl - Пользователь удалён: id=8
+2026-08-16 17:52:17.018 [main] DEBUG org.hibernate.SQL - delete from users where id=?
+2026-08-16 17:52:17.021 [main] DEBUG org.hibernate.SQL - select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0 where u1_0.id=?
+2026-08-16 17:52:17.024 [main] DEBUG o.e.userservice.dao.UserDaoImpl - Пользователь с id=8 не найден

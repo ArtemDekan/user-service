@@ -5,6 +5,7 @@ import org.example.userservice.entity.User;
 import org.example.userservice.exception.UserDaoException;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.exception.ConstraintViolationException;
 import org.hibernate.exception.JDBCConnectionException;
@@ -18,11 +19,21 @@ public class UserDaoImpl implements UserDao {
 
     private static final Logger log = LoggerFactory.getLogger(UserDaoImpl.class);
 
+    private final SessionFactory sessionFactory;
+
+    public UserDaoImpl() {
+        this.sessionFactory = HibernateUtil.getSessionFactory();
+    }
+
+    public UserDaoImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+
     @Override
     public User save(User user) {
         Transaction transaction = null;
 
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction();
 
             session.persist(user);
@@ -59,7 +70,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public Optional<User> findById(Long id) {
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
 
             User user = session.get(User.class, id);
 
@@ -87,7 +98,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List<User> findAll() {
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
 
             List<User> users = session
                     .createQuery("FROM User", User.class)
@@ -114,7 +125,7 @@ public class UserDaoImpl implements UserDao {
     public User update(User user) {
         Transaction transaction = null;
 
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction();
 
             User updatedUser = session.merge(user);
@@ -154,7 +165,7 @@ public class UserDaoImpl implements UserDao {
     public void delete(Long id) {
         Transaction transaction = null;
 
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction();
 
             User user = session.get(User.class, id);
@@ -187,8 +198,12 @@ public class UserDaoImpl implements UserDao {
 
     private void rollback(Transaction transaction) {
         if (transaction != null && transaction.isActive()) {
-            transaction.rollback();
-            log.debug("Транзакция откачена");
+            try {
+                transaction.rollback();
+                log.debug("Транзакция откачена");
+            } catch (Exception ex) {
+                log.warn("Не удалось откатить транзакцию (возможно, соединение уже закрыто)", ex);
+            }
         }
     }
 }
